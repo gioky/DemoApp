@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E26A8121D0305E400407E35 /* cy_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E26A8101D0305E400407E35 /* cy_flag.png */; };
+		5E26A8131D0305E400407E35 /* gr_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E26A8111D0305E400407E35 /* gr_flag.png */; };
+		5E26A8161D0335BC00407E35 /* CarrierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E26A8151D0335BC00407E35 /* CarrierViewController.swift */; };
+		5E26A81B1D033CCC00407E35 /* cosmote.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E26A8171D033CCC00407E35 /* cosmote.png */; };
+		5E26A81C1D033CCC00407E35 /* cyta.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E26A8181D033CCC00407E35 /* cyta.png */; };
+		5E81D95D1D03765E004C6368 /* mtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E81D95C1D03765E004C6368 /* mtn.png */; };
+		5E81D95F1D037669004C6368 /* vodafone.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E81D95E1D037669004C6368 /* vodafone.png */; };
 		5EFC6A181D02F9E30092F40C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFC6A171D02F9E30092F40C /* AppDelegate.swift */; };
-		5EFC6A1A1D02F9E30092F40C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFC6A191D02F9E30092F40C /* ViewController.swift */; };
+		5EFC6A1A1D02F9E30092F40C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFC6A191D02F9E30092F40C /* MainViewController.swift */; };
 		5EFC6A1D1D02F9E30092F40C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFC6A1B1D02F9E30092F40C /* Main.storyboard */; };
 		5EFC6A1F1D02F9E30092F40C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFC6A1E1D02F9E30092F40C /* Assets.xcassets */; };
 		5EFC6A221D02F9E30092F40C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFC6A201D02F9E30092F40C /* LaunchScreen.storyboard */; };
@@ -34,9 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E26A8101D0305E400407E35 /* cy_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cy_flag.png; path = icons/cy_flag.png; sourceTree = "<group>"; };
+		5E26A8111D0305E400407E35 /* gr_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gr_flag.png; path = icons/gr_flag.png; sourceTree = "<group>"; };
+		5E26A8151D0335BC00407E35 /* CarrierViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarrierViewController.swift; path = Controllers/CarrierViewController.swift; sourceTree = "<group>"; };
+		5E26A8171D033CCC00407E35 /* cosmote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cosmote.png; path = icons/cosmote.png; sourceTree = "<group>"; };
+		5E26A8181D033CCC00407E35 /* cyta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cyta.png; path = icons/cyta.png; sourceTree = "<group>"; };
+		5E81D95C1D03765E004C6368 /* mtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mtn.png; path = icons/mtn.png; sourceTree = "<group>"; };
+		5E81D95E1D037669004C6368 /* vodafone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vodafone.png; path = icons/vodafone.png; sourceTree = "<group>"; };
 		5EFC6A141D02F9E30092F40C /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFC6A171D02F9E30092F40C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5EFC6A191D02F9E30092F40C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EFC6A191D02F9E30092F40C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Controllers/MainViewController.swift; sourceTree = "<group>"; };
 		5EFC6A1C1D02F9E30092F40C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EFC6A1E1D02F9E30092F40C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EFC6A211D02F9E30092F40C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +88,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E26A80F1D0305B000407E35 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				5E26A8171D033CCC00407E35 /* cosmote.png */,
+				5E26A8181D033CCC00407E35 /* cyta.png */,
+				5E81D95C1D03765E004C6368 /* mtn.png */,
+				5E81D95E1D037669004C6368 /* vodafone.png */,
+				5E26A8101D0305E400407E35 /* cy_flag.png */,
+				5E26A8111D0305E400407E35 /* gr_flag.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		5E26A8141D0321EC00407E35 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E26A8151D0335BC00407E35 /* CarrierViewController.swift */,
+				5EFC6A191D02F9E30092F40C /* MainViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		5EFC6A0B1D02F9E20092F40C = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +133,9 @@
 		5EFC6A161D02F9E30092F40C /* DemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				5E26A8141D0321EC00407E35 /* Controllers */,
+				5E26A80F1D0305B000407E35 /* icons */,
 				5EFC6A171D02F9E30092F40C /* AppDelegate.swift */,
-				5EFC6A191D02F9E30092F40C /* ViewController.swift */,
 				5EFC6A1B1D02F9E30092F40C /* Main.storyboard */,
 				5EFC6A1E1D02F9E30092F40C /* Assets.xcassets */,
 				5EFC6A201D02F9E30092F40C /* LaunchScreen.storyboard */,
@@ -193,6 +230,7 @@
 				TargetAttributes = {
 					5EFC6A131D02F9E30092F40C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W6XGE4U7K4;
 					};
 					5EFC6A271D02F9E30092F40C = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -230,8 +268,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EFC6A221D02F9E30092F40C /* LaunchScreen.storyboard in Resources */,
+				5E81D95D1D03765E004C6368 /* mtn.png in Resources */,
 				5EFC6A1F1D02F9E30092F40C /* Assets.xcassets in Resources */,
+				5E26A81B1D033CCC00407E35 /* cosmote.png in Resources */,
+				5E26A8131D0305E400407E35 /* gr_flag.png in Resources */,
 				5EFC6A1D1D02F9E30092F40C /* Main.storyboard in Resources */,
+				5E26A81C1D033CCC00407E35 /* cyta.png in Resources */,
+				5E81D95F1D037669004C6368 /* vodafone.png in Resources */,
+				5E26A8121D0305E400407E35 /* cy_flag.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +300,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EFC6A1A1D02F9E30092F40C /* ViewController.swift in Sources */,
+				5EFC6A1A1D02F9E30092F40C /* MainViewController.swift in Sources */,
 				5EFC6A181D02F9E30092F40C /* AppDelegate.swift in Sources */,
+				5E26A8161D0335BC00407E35 /* CarrierViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +446,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.macsha.DemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -412,10 +460,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.macsha.DemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -484,6 +535,7 @@
 				5EFC6A3E1D02F9E30092F40C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EFC6A3F1D02F9E30092F40C /* Build configuration list for PBXNativeTarget "DemoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +544,7 @@
 				5EFC6A411D02F9E30092F40C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EFC6A421D02F9E30092F40C /* Build configuration list for PBXNativeTarget "DemoAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +553,7 @@
 				5EFC6A441D02F9E30092F40C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
