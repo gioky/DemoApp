@@ -137,7 +137,6 @@ class MainViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
                 
                 // Cyprus, Cyta
                 carrierName = "Cyta"
-                view.endEditing(true)
                 self.performSegueWithIdentifier("showCarrier", sender: self)
             }
             
@@ -145,7 +144,6 @@ class MainViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
                 
                 // Cyprus, MTN
                 carrierName = "MTN"
-                view.endEditing(true)
                 self.performSegueWithIdentifier("showCarrier", sender: self)
             }
             
@@ -168,7 +166,6 @@ class MainViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
                 
                 // Greece, Cosmote
                 carrierName = "Cosmote"
-                view.endEditing(true)
                 self.performSegueWithIdentifier("showCarrier", sender: self)
             }
                 
@@ -176,7 +173,6 @@ class MainViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
                 
                 // Greece, Vodafone
                 carrierName = "Vodafone"
-                view.endEditing(true)
                 self.performSegueWithIdentifier("showCarrier", sender: self)
             }
                 
@@ -208,9 +204,11 @@ class MainViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     
     func showAlert(title: String, message:String) {
         
-        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.Alert)
-        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
-        self.presentViewController(alert, animated: true, completion: nil)
+        let alertContr = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        alertContr.addAction(UIAlertAction(title: "Ok", style: .Default, handler: { (action: UIAlertAction!) in
+            self.numberTxtFld.text = ""
+        }))
+        presentViewController(alertContr, animated: true, completion: nil)
     }
     
     
@@ -221,6 +219,7 @@ class MainViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     @IBAction func carrierBtnClicked(sender: UIButton) {
         
         let numberString = numberTxtFld.text
+        self.view.endEditing(true)
         
         if (countryTxtFld.text == "Cyprus") {
             
